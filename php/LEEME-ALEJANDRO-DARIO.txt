@@ -1,0 +1,24 @@
+Instrucciones de uso:
+
+**IMPORTANTE: Academiacero.sql Importar la base de datos, sin eso no funcionan las noticias, el Admin ni nada
+
+1.Tiene un Panel de Administrador en /admin
+1.1 El user es 'Academiacero' y la password 'javinuria'. Si quieres cambiarla o agregar más la table es 'admin_login'.
+
+2.Esta hecha con React, es SPA la programe yo completamente a mano desde 0, para aprender, me da igual el premio :P, si quieres ver el código de algo pídemelo, aquí está compilada.
+
+3.El archivo 'conexiondb' es la conexión a la base de datos, para que funcione debes establecer los datos correctamente ahí
+
+4./uploads es la carpeta de subidas de noticias, si quisieras tocar cualquier cosa de una noticia está todo en la table 'Noticias'.
+4.1 Los contact forms estan en la tabla  formulario_contacto.
+
+5.Si os gustara la pagina podria meterle bastantes mas funciones como eliminar editar y alguna cosilla que se me ha olvidado a la principal, tener tengo tiempo asi que lo que necesiteis.
+
+6.Es responsive, de todos modos si os gustara y hay algún error siempre puede corregirse, cualquier duda email a alejandrodariofo@gmail.com
+
+**Si falla algo mandame un mensaje, ya que deberia de funcionar todo correctamente si se siguen los pasos.
+
+
+--Saludos y encantado de haberte tenido como profesor, gracias por todo, Xavi.
+
+Att. Alejandro Dario
