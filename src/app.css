@@ -1,0 +1,509 @@
+body {
+  margin:0px;
+  background:rgba(23,112,184,255);
+  background-image: linear-gradient(to bottom right, rgba(23,112,184,255), rgba(23,112,174,255));
+
+}
+
+html {
+  margin:0px;
+  scroll-behavior:auto;
+  
+}
+
+.bodyNormalSmooth {
+  scroll-behavior: auto;
+}
+
+h1 {
+  font-family: Tahoma;
+  text-align:center;
+  font-size:xx-large;
+  margin:40px;
+  color:steelblue;
+  
+}
+h2 {
+  font-family: Tahoma;
+  text-align:center;
+}
+
+p {
+  font-size:14px;
+}
+
+a:link {
+  text-decoration: none;
+  color:unset;
+}
+
+a:visited {
+  color:unset;
+}
+
+.AdminPanel{
+  color:black;
+}
+/*APP GLOBAL*/
+.ContainerGlobal {
+  max-width:1250px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  border:solid 3px;
+  
+ 
+}
+
+.Separador {
+  height:100px;
+  background:whitesmoke;
+  border-bottom: solid 1px aqua;
+  
+  
+}
+/* INSTALACIONES */
+.InstalacionesTituloDesc {
+  max-width:1400px;
+  margin:auto;
+  background:white;
+}
+
+.InstalacionesDescripcionTexto {
+  margin:auto;
+  max-width:1100px;
+  text-align:center;
+}
+
+.InstalacionesContainer{
+  display:flex;
+  flex-direction: row;
+  max-width:1400px;
+  max-height:auto;
+  margin:auto;
+  flex-wrap: wrap;
+  background:white;
+  justify-content: space-around;
+  
+}
+
+
+.InstalacionesElemento {
+ 
+  display:flex;
+  flex-direction: column;
+  height:auto;
+  background:white;
+}
+
+.InstalacionesFotosFlex {
+  display:flex;
+  column-gap: 10px;
+  row-gap:10px;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+}
+img.FotoElementoInst {
+  width:300px;
+}
+
+div.ElementoTexto {
+  max-width:400px;
+  margin:auto;
+  text-align:center;
+}
+
+
+/*FORMACIÓN*/
+
+.Formacion {
+  max-width:1400px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background:white;
+  
+
+}
+.FormacionDescripcionTexto {
+  max-width:1100px;
+  margin:auto;
+}
+
+
+
+.FormacionContainer{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  justify-content:space-evenly;
+  background:white;
+  
+  
+}
+
+.FormacionElemento{
+  display:flex;
+  flex-direction: column;
+  width:350px;
+  background:white;
+ 
+}
+
+.FormacionElementoTexto{
+  margin:0px;
+  
+}
+
+img.FotoElemento {
+  width:100px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*NavBar*/
+.NavBar {
+  position:relative;
+  height:100%;
+  top:20px;
+  left:0;
+  right:0;
+  margin:0 auto;
+  
+}
+.NavBarContainer {
+  max-width:1250px;
+  display:flex;
+  top:0px;
+  position:fixed;
+  left:0;
+  right:0;
+  margin:0 auto;
+  background:white;
+  max-height:67px;
+  background:black;
+  z-index: 1;
+}
+
+
+.NavBarLinksContainer {
+  display:flex;
+  column-gap: 35px;
+  margin-left:auto;
+  margin-right:55px;
+  font-size:20px;
+  align-items: center;
+  font-family:Impact;
+  background:black;
+  color:white;
+}
+
+
+
+.NavBarLinkElemento {
+  margin-top:0px;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.BarraLinkElemento {
+  width:0;
+  height:5px;
+  transition:all 0.2s;
+  background:orange;
+  border-radius: 50px;
+}
+
+.BarraLinkElementoScroll {
+  width:0%;
+  height:5px;
+  transition:all 0.2s;
+  background:blue;
+  border-radius: 50px;
+}
+
+.NavBarSocialMedia {
+  display:flex;
+  column-gap:10px;
+  margin-right:10px;
+  color:white;
+  align-items: center;
+}
+
+.NavBarTelefonos {
+  width:100%;
+}
+.TelefonosSeparador {
+  width:100%;
+  height:2px;
+  background-color:orange;
+}
+
+.MenuMoviles {
+  display:none;
+  color:white;
+  margin-left:auto;
+  cursor:pointer;
+  
+}
+
+.MenuMoviles:hover {
+  
+}
+.DesplegableLinksMoviles {
+  position:fixed;
+  color:white;
+  background:black;
+  max-width:1250px;
+  display:none;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  top:70px;
+  position:fixed;
+  left:0;
+  right:0;
+  margin:0 auto;
+  background:white;
+  background:black;
+  z-index: 1;
+}
+@media only screen and (max-width:1000px) {
+  .NavBarLinksContainer {
+   display:none;
+  }
+  .NavBarSocialMedia {
+    margin-left:auto;
+  } 
+  .MenuMoviles {
+    display:block;
+  }
+ 
+ }
+
+/*Portada*/
+
+.PortadaContainer {
+  
+  width:100%;
+  min-height:600px;
+  max-height: 800px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+
+.PortadaContainerInterior {
+  display:flex;
+  margin:auto;
+  margin-top:100px;
+  max-width:1150px;
+  column-gap: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+  
+ 
+}
+
+.PortadaIzquierda {
+  color:white;
+  margin:auto;
+  transform:scale(0.90);
+  transition:all 0.1s;
+  
+  
+}
+
+.PortadaIzquierdaTitulo {
+  background:black;
+  border:solid 0px;
+  font-size:100px;
+  font-family:impact;
+  
+}
+.PortadaIzquierdaTexto {
+  
+  margin-top: 10px;
+  font-size: 33px;
+  text-align:left;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background:white;
+  max-width:270px;
+  color:black;
+  border:solid 2px;
+  margin:0px;
+  
+}
+.PortadaDerecha {
+  margin-left:0px;
+  margin-right:0px;
+  margin:auto;
+}
+
+.FotoLogoPortada {
+  display:block;
+  transform:scale(0.5);
+  z-index: 0;
+  transition:transform 0.1s;
+}
+.SocialMediaContainer {
+  display:flex;
+  flex-direction: column;
+}
+.PortadaSocialMedia {
+  margin-top:10px;
+  display:flex;
+  justify-content: center;
+  column-gap: 20px;
+  
+}
+
+.SocialImage {
+  width:50px;
+  
+}
+
+
+/*Contacto*/
+.Contacto {
+  background:white;
+  display:flex;
+  flex-direction: column;
+}
+.Mapa {
+  max-width: 1240px;
+}
+
+input {
+  padding:15px;
+  width:40%;
+}
+
+.Mensaje {
+  width:80%;
+  height:120px;
+  padding:10px;
+  font-family: Tahoma;
+}
+
+.Formulario {
+  display:flex;
+  flex-direction: column;
+  row-gap: 15px;
+  max-width:1200px;
+  margin:auto;
+  
+}
+
+.BotonEnviarMensaje {
+  background:blue;
+  color:white;
+}
+
+/*Noticias*/
+
+.Noticias {
+  display:flex;
+  flex-direction: column;
+  max-width:1400px;
+  background: white;
+  margin:auto;
+  
+}
+
+.NoticiasContainer {
+  display:flex;
+  flex-wrap: wrap;
+  max-width:1300px;
+  margin:auto;
+  justify-content: space-around;
+  background:white;
+  row-gap: 20px;
+
+}
+
+.NoticiasElemento {
+  display:flex;
+  text-align:center;
+  flex-direction:column;
+  min-width: 300px;
+  max-width:300px;
+  background:white;
+  color:black;
+  white-space: pre-wrap;
+}
+
+.NoticiaImagen {
+  width:200px;
+  height:200px;
+  display:block;
+  margin:auto;
+}
+
+.NoticiaLinkExtra {
+  color:blue;
+} 
+
+/*LOGOSFINAL*/
+.LogosFinal {
+  max-width:1250px;
+  
+  background:whitesmoke
+}
+
+.LogoFinalImagen {
+  width:300px;
+  height:100px;
+}
+/*FOOTER */
+
+.Footer {
+  display:flex;
+  height:100px;
+  max-width:1250px;
+  margin:auto;
+  background:black;
+}
+
+.FooterContenido {
+  color:white;
+  margin:auto;
+  
+}
+
+
+
+
+
+
+
+/* ADMIN PANEL */
+
+.AdminPanel {
+  background-color:whitesmoke;
+}
+
+.NoticiasFormAdmin {
+  background-color: orangered;
+  color:white;
+}
+
+.ContactFormAdmin {
+  background-color: orangered;
+  color:white;
+}
+
+.h1Admin {
+  text-align: left;
+  color:black;
+}
